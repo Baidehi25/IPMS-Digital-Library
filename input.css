@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600&display=swap');
+
+@font-face {
+  font-family: "sansationregular";
+  src: url("fonts/sansation.regular.ttf");
+}
+@font-face {
+  font-family: "sansationlight";
+  src: url("fonts/sansation.light.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

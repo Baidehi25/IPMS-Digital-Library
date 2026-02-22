@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;600&display=swap" rel="stylesheet">
+    <title>Tailwindcss Document</title>
+</head>
+<body>
+    <nav class="bg-black text-white w-[1440px] h-[50px] flex justify-between">
+        <img src="logo.png" class="h-12 pt-1 px-5">
+        <ul class="pr-20 py-4 flex justify-end space-x-11 font-custom font-semibold text-[18px]">
+            <li class="mx-2 cursor-pointer">Help</li>
+            <li class="mx-2 cursor-pointer">Login</li>
+            <li class="mx-2 cursor-pointer">Sign Up</li>
+        </ul>
+    </nav>
+    <nav class="bg-[#0888A5] text-white w-[1440px] h-[80px] flex gap-[770px] items-center">
+        <ul class="flex items-center pl-10 gap-7 font-custom font-semibold text-[24px]">
+            <li class="cursor-pointer">Recently Published</li>
+            <li class="cursor-pointer">Browse</li>
+            <li class="cursor-pointer">Setting</li>
+        </ul>
+        <div class="flex gap-[30px] font-custom font-semibold items-center text-[24px]">
+            <div class="flex gap-[1px]">
+                <div class="w-[50px] leading-[24px] text-center">Chief Editor</div>
+                <img src="arrow.png" class="w-[50px] cursor-pointer">
+            </div>
+            <div class="flex gap-[10px]">
+                <img src="bell.png" class="w-[35px] h-[35px] cursor-pointer">
+                <div>Alerts</div>
+            </div>
+        </div>
+    </nav>
+    <div class="ml-10 mt-4 text-[54px] text-[#ACBCC0] font-dashboard font-semibold">Dashboard</div>
+    <div class="grid grid-cols-[786px_535px] grid-rows-[707px_68px]">
+        <div class="bg-[#fff5da] ml-5 w-[786px] h-[786px] rounded-[30px] flex flex-col gap-[30px] row-span-2 mt-2">
+            <div class="bg-white w-[240px] h-[60px] text-center p-1 text-[26px] rounded-[30px] mt-[40px] ml-[40px] font-sansationreg">12 - 02 - 2023</div>
+            <div class="flex bg-white ml-[40px] rounded-[30px] w-[688px] h-[100px] gap-14">
+                <div class="text-[26px] ml-[30px] mt-[10px] font-sansationreg">Title: </div>
+                <div class="w-[495px] text-[20px] mt-[8px] font-sansationlight">New Quantum effect on surroundings. Experimental Data acquiring using atomic frequency and oscillations.</div>
+            </div>
+            <div class="flex flex-col bg-white ml-[40px] rounded-[30px] w-[688px] h-[120px]">
+                <div class="flex gap-[72px] mt-[2px]">
+                    <div class="text-[26px] ml-[30px] font-sansationreg">Author: </div>
+                    <div class="w-[495px] text-[20px] mt-[7px] font-sansationlight">Ragnunath P. Patil, Satnam Shinde</div>
+                </div>
+                <div class="flex gap-8">
+                    <div class="text-[26px] ml-[30px] font-sansationreg">Co-Author: </div>
+                    <div class="w-[495px] text-[20px] mt-[7px] font-sansationlight">Ananya P. Patil, Harsh Thakur</div>
+                </div>
+            </div>
+            <div class="flex gap-9 bg-white ml-[40px] rounded-[30px] w-[688px] h-[270px]">
+                <div class="text-[26px] ml-[30px] mt-1.5 font-sansationreg">Abstract: </div>
+                <div class="text-[20px] mt-[10px] leading-[20px] w-[484px] font-sansationlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas gravida tellus, et consectetur sem interdum at. Nullam lectus quam, hendrerit ut ante sit amet, fringilla pellentesque sapien. Aliquam ut ante non ante egestas faucibus sed sit amet odio. Aenean nunc ante, sodales sed lacus id, cursus rhoncus libero. Aliquam eleifend lacus congue, commodo enim ac, dictum tortor. Nam orci eros, suscipit ut mollis eget, luctus quis elit. Nulla a mauris posuere, molestie ex sit amet, congue justo. </div>
+            </div>
+            <div class="flex gap-9 bg-white ml-[40px] rounded-[30px] w-[688px] h-[110px]">
+                <div class="text-[26px] ml-[30px] mt-1.5 font-sansationreg">Keywords: </div>
+                <div class="text-[20px] mt-[14px] leading-[20px] w-[484px] font-sansationlight">Machine learning, Artificial intelligence, quantum mechanics, atomic frequency, chemistry</div>
+            </div>
+            <div class="text-end mr-4 mb-2 text-[24px] font-custom font-semibold">more</div>
+        </div>
+        <div class="bg-[#E3F2F5] w-[535px] h-[689px] rounded-[30px] ml-14 flex flex-col mt-5">
+            <div class="text-[26px] ml-7 mt-4 text-[#57A6A1] font-sansationreg">Revisions</div>
+            <div class="flex flex-col gap-[10px] mt-[11px] ml-3">
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">14 - 03 - 2023</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">26 - 03 - 2023</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg"> 05 - 04 - 2023</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer"> view</div>
+                </div>
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">17 - 04 - 2023</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">29 - 04 - 2023</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+            </div>
+            <div class="text-[26px] ml-7 mt-4 text-[#57A6A1] font-sansationreg">View Reviewer's Report</div>
+            <div class="flex flex-col gap-[10px] mt-[11px] ml-3">
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">Reviewer 1</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+                <div class="flex gap-[30px]" class="flex">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">Reviewer 2</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">Reviewer 3</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">Reviewer 4</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+                <div class="flex gap-[30px]">
+                    <div class="w-[230px] ml-[35px] text-[#577B8D] bg-white rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 font-sansationreg">Reviewer 5</div>
+                    <div class="w-[171px] text-[#577B8D] rounded-[30px] text-center text-[20px] h-[43px] pt-1.5 bg-[#BEC7C9] font-sansationreg cursor-pointer">view</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex ml-[120px] gap-5">
+            <div class="w-[198px] h-[60px] mt-5 p-4 text-[#EA0C0C] text-center rounded-[30px] bg-[#FDE49B] text-[18px] font-sansationreg cursor-pointer">Reject</div>
+            <div class="w-[198px] h-[60px] mt-5 p-4 text-[#0888A5] text-center rounded-[30px] bg-[#FDE49B] text-[18px] font-sansationreg cursor-pointer">Publish</div>
+        </div>
+    </div>
+    <footer class="w-[1440px] h-[300px] bg-black mt-[50px] flex gap-[150px]">
+        <div class="ml-[40px] mt-[60px]"><img src="logo.png" class="h-12 px-5"></div>
+        <div class="flex flex-col text-white mt-[75px] font-custom">
+            <h4 class="font-extrabold">Categories</h4>
+            <ul>
+                <li class="leading-[18px] cursor-pointer">Journals</li>
+                <li class="leading-[18px] cursor-pointer">Books</li>
+                <li class="leading-[18px] cursor-pointer">Proceedings</li>
+                <li class="leading-[18px] cursor-pointer">Conferences</li>
+                <li class="leading-[18px] cursor-pointer">People</li>
+            </ul>
+        </div>
+        <div class="flex flex-col text-white mt-[75px] font-custom">
+            <h4 class="font-extrabold">About</h4>
+            <ul>
+                <li class="leading-[18px] cursor-pointer">About IPSM Digital Library</li>
+                <li class="leading-[18px] cursor-pointer">Subscription Information</li>
+                <li class="leading-[18px] cursor-pointer">Author Guidelines</li>
+                <li class="leading-[18px] cursor-pointer">Digital Library Accessibility</li>
+            </ul>
+        </div>
+        <div class="flex flex-col text-white mt-[75px] font-custom">
+            <h4 class="font-extrabold">Join</h4>
+            <ul>
+                <li class="leading-[18px] cursor-pointer">Join IPSM</li>
+                <li class="leading-[18px] cursor-pointer">Subscribe To Publications</li>
+                <li class="leading-[18px] cursor-pointer">Institutions And Libraries</li>
+            </ul>
+        </div>
+        <div class="flex flex-col text-white mt-[75px] font-custom">
+            <h4 class="font-extrabold">Connect</h4>
+            <ul>
+                <li class="leading-[18px] cursor-pointer">Facebook</li>
+                <li class="leading-[18px] cursor-pointer">Instagram</li>
+                <li class="leading-[18px] cursor-pointer">Linkedin</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
